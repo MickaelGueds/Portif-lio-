@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais */
+body {
+  @apply bg-custom-black text-custom-white font-sans;
+}
+
+a {
+  @apply text-space-purple hover:text-custom-white transition-colors;
+}
